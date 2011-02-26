@@ -25,15 +25,18 @@ spi(nargs, filename, id, fd, title, output, txlab, tylab)
   name of datafile
 
   The datafile in ASCII format must have the following layout:
-  
-  Months     2005     2006     2007     2008     2009    2010
-  Jan        28.1     5.8      22.9     64.2     70.1    85.9
-  Feb        41.4     85.1     149.2    31.0     142.1   36.9
-  Mar        153.2    145.9    101.6    308.8    171.8   57.5 
-  Apr        57.0     212.4    170.3    244.5    278.9   132.9
-  May        154.9    119.9    57.8     128.8    212.7   55.6
-  jun        158.6    81.3     160.8    94.0     115.3   63.3
-  Jul        22.6     27.2     29.4     80.9     82.7    30.9 
+
+  \tabular{lllllll}{
+Months \tab 2005  \tab 2006  \tab 2007  \tab 2008  \tab 2009  \tab 2010  \cr
+Jan    \tab 28.1  \tab 5.8   \tab 22.9  \tab 64.2  \tab 70.1  \tab 85.9  \cr
+Feb    \tab 41.4  \tab 85.1  \tab 149.2 \tab 31.0  \tab 142.1 \tab 36.9  \cr
+Mar    \tab 153.2 \tab 145.9 \tab 101.6 \tab 308.8 \tab 171.8 \tab 57.5  \cr
+Apr    \tab 57.0  \tab 212.4 \tab 170.3 \tab 244.5 \tab 278.9 \tab 132.9 \cr
+May    \tab 154.9 \tab 119.9 \tab 57.8  \tab 128.8 \tab 212.7 \tab 55.6  \cr
+jun    \tab 158.6 \tab 81.3  \tab 160.8 \tab 94.0  \tab 115.3 \tab 63.3  \cr
+Jul    \tab 22.6  \tab 27.2  \tab 29.4  \tab 80.9  \tab 82.7  \tab 30.9  \cr
+}
+
 }
   \item{id}{
 %%     ~~Describe \code{id} here~~
